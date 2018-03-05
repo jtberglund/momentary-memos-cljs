@@ -57,3 +57,11 @@ a:hover {
     border: 1px solid #333;
     display: inline-block;
 }
+
+@media (min-width: 600px) {
+    .login__form-container {
+        display: grid;
+        grid-template-columns: calc(50% - 10px) calc(50% - 10px);
+        grid-gap: 20px;
+    }
+}
